@@ -1,0 +1,209 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/************header starts from here***************/
+
+header{
+    width: 100%;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 2.5%;
+    padding-bottom: 2rem;
+    font-size: 14px;
+}
+
+a{
+    text-decoration:none;
+    color:#4f4f4f;
+}
+.link a:hover {
+    color: blue;
+}
+.logo {
+    width: 1%;
+}
+.link{
+    width:75%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.headerImg {
+    width: 800px;
+}
+
+/************header ends  here***************/
+/************container starts here***************/
+.container {
+    width:800px;
+    margin: 0 auto;
+    display: flex;
+    /* padding-top: 1rem; */
+    padding-bottom: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    
+}
+p {
+    line-height: 1.4;
+}
+ 
+p.title {
+    font-size: 1.1rem;
+}
+
+.line {
+    border-top: 1px dashed #4f4f4f
+}
+.about-page >p {
+padding: 0 2rem 0 2rem;
+margin-bottom: 1rem;
+}
+
+
+.fourThings a{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: 30%;
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+
+.fourThings a:hover{
+    background-color: mediumaquamarine;
+}
+.fourThings p{
+    padding-bottom:1.2rem;
+}
+
+.fourThings img{
+    padding-top:1rem;
+    padding-bottom:0.6rem;
+
+}
+.fourThings .line {
+    margin-top:1.5rem;
+}
+.fourThings{
+    width:45%;
+
+}
+
+.middle .fourThings {
+    margin-left: 1.3rem;
+    margin-right: 1rem;
+}
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.workTogether  {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.workTogether >p {
+    padding-top: 0.6rem;
+   
+}
+/************container starts here***************/
+
+/************My footer below***************/
+
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+footer nav a:hover {
+    color: lightskyblue;
+   
+}
+
+
