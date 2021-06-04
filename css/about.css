@@ -106,25 +106,6 @@ a{
     flex-direction: column;
     align-items: center;
 }
-
-.fourThings a{
-    border: 1px solid black;
-    border-radius: 0.5rem;
-    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
-    width: 30%;
-    font-size: 0.8rem;
-    text-align: center;
-
-}
-.fourThings p, .fourThings img{
-    padding:1rem;
-}
-.middle {
-    display: flex;
-  
-      
-}
-
 p {
     line-height: 1.4;
 }
@@ -132,10 +113,52 @@ p {
 .line {
     border-top: 1px dashed #4f4f4f
 }
-.fourThings .line {
-    width: 80%;
+.about-page >p {
+padding: 0 2rem 0 2rem;
+margin-bottom: 1rem;
 }
 
+
+.fourThings a{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: 30%;
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+.fourThings p{
+    padding-bottom:1.2rem;
+}
+
+.fourThings img{
+    padding-top:1rem;
+    padding-bottom:0.6rem;
+
+}
+
+
+
+.middle {
+    display: flex;
+      
+}
+
+
+.fourThings .line {
+    width: 90%;
+    margin-top:1.5rem;
+}
+
+.workTogether  {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.workTogether >p {
+    padding-top: 0.6rem;
+   
+}
 
 /************My footer copied***************/
 
