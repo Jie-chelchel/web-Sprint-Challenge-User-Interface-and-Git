@@ -98,7 +98,13 @@ a{
 
 /************header ends  here***************/
 .container {
-    width: 80%;
+    width:800px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fourThings a{
@@ -129,11 +135,7 @@ p {
 .fourThings .line {
     width: 80%;
 }
-/* .fourThings {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-} */
+
 
 /************My footer copied***************/
 
