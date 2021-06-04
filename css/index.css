@@ -62,9 +62,61 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+/************My css starts from here***************/
+
+header{
+    width: 100%;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 2.5%;
+    padding-bottom: 2rem;
+    font-size: 14px;
+}
+
+a{
+    text-decoration:none;
+    color:#4f4f4f;
+}
+.logo {
+    width: 1%;
+}
+.link{
+    width:80%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.headerImg {
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/************My css ends here***************/
+
 p {
     line-height: 1.4;
 }
+
+
 
 .container {
     width: 800px;
