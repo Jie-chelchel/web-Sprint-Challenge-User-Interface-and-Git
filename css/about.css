@@ -49,6 +49,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    max-width: 100%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -57,7 +58,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
-/************My css starts from here***************/
+/************header starts from here***************/
 
 header{
     width: 100%;
@@ -95,52 +96,44 @@ a{
     width: 800px;
 }
 
-.middle-content .boxes > div:nth-of-type(1){
-    background-color: teal;
+/************header ends  here***************/
+.container {
+    width: 80%;
 }
 
-.middle-content .boxes > div:nth-of-type(2){
-    background-color: gold;
-}
-.middle-content .boxes > div:nth-of-type(3){
-    background-color: cadetblue;
-}
-.middle-content .boxes > div:nth-of-type(4){
-    background-color: coral;
-}
+.fourThings a{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    width: 30%;
+    font-size: 0.8rem;
+    text-align: center;
 
-.middle-content .boxes > div:nth-of-type(5){
-    background-color: crimson;
 }
-.middle-content .boxes > div:nth-of-type(6){
-    background-color: forestgreen;
+.fourThings p, .fourThings img{
+    padding:1rem;
 }
-.middle-content .boxes > div:nth-of-type(7){
-    background-color: darkorchid;
+.middle {
+    display: flex;
+  
+      
 }
-.middle-content .boxes > div:nth-of-type(8){
-    background-color: hotpink;
-}
-.middle-content .boxes > div:nth-of-type(9){
-    background-color: indigo;
-}
-.middle-content .boxes > div:nth-of-type(10){
-    background-color: dodgerblue;
-}
-
-
-
-
-/************My css ends here***************/
 
 p {
     line-height: 1.4;
 }
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
 
+.line {
+    border-top: 1px dashed #4f4f4f
+}
+.fourThings .line {
+    width: 80%;
+}
+/* .fourThings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} */
 
 /************My footer copied***************/
 
